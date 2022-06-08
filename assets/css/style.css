@@ -1,0 +1,628 @@
+html{
+    background: #343135;
+    scroll-behavior: smooth;
+}
+body {
+  font-family: 'Morion';
+  background: #363438;
+}
+h1{position: absolute;
+  top: 28px;
+  left: 44px;
+ height: 30px;
+  width: 170px;
+
+  /* Text styles for "ксиома" */
+  font-family: 'Greycliff CF';
+  font-size: 42px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+h2{
+  position: absolute;
+    top: 21px;
+    left: 14px;
+  height: 30px;
+    width: 170px;
+  /* Text styles for "А" */
+    font-family: 'Greycliff CF';
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(157, 203, 255, 1);
+}
+h3{
+ position: absolute;
+ top: 129px;
+ left: 20px;
+ height: 88px;
+ width: 884px;
+ font-family: 'Morion';
+ font-size: 42px;
+ font-weight: bold;
+ color: rgba(255, 255, 255, 1);
+ }
+h4{
+ position: absolute;
+ top: 246px;
+ left: 20px;
+ height: 55px;
+ width: 579px;
+ font-family: 'AsketExtended-Light';
+ font-size: 25px;
+ font-weight: 300;
+ color: rgba(255, 255, 255, 1);
+ }
+/*Зеленая волна*/
+#greenwave{
+  position: absolute; top: 700px}
+#grtxt1{
+  z-index: 1;
+  position: absolute;
+  top: 810px;
+  left: 19px;
+ height: 71px;width: 381px;
+ font-family: 'Morion';
+ font-size: 43px;
+ font-weight: bold;
+ color: rgba(255, 255, 255, 1);
+ }
+#grtxt2{
+ z-index: 1;
+  position: absolute;
+  top: 930px;
+  left: 20px;
+  height: 79px;
+  width: 445px;
+  font-family: 'AsketExtended-Light';
+ font-size: 30px;
+ font-weight: 300;
+ color: rgba(255, 255, 255, 1);
+}
+#grnimg{
+  z-index: 1;
+  position: absolute;
+  height: 350px;
+  left: 950px;
+  top: 830px;
+}
+/*--------*/
+
+/*Синяя волна*/
+#bluewave{
+  position: absolute; top: 1300px;
+}
+#blutxt1{
+  z-index: 1;
+  position: absolute;
+  top: 1370px;
+  left: 859px;
+ height: 71px;
+ width: 451px;
+ font-family: 'Morion';
+ font-size: 43px;
+ font-weight: bold;
+ text-align: right;
+ color: rgba(255, 255, 255, 1);
+}
+#blutxt2{
+  z-index: 1;
+   position: absolute;
+   top: 1550px;
+   left: 710px;
+   height: 79px;
+   width: 605px;
+   font-family: 'AsketExtended-Light';
+  font-size: 30px;
+  font-weight: 300;
+   text-align: right;
+  color: rgba(255, 255, 255, 1);
+ }
+#bluimg{
+  z-index: 0;
+  position: absolute;
+  height: 350px;
+  left: 50px;
+  top: 1260px;
+}
+/*--------*/
+
+/*Список услуг*/
+#usltxt{
+  z-index: 1;
+  position: absolute;
+  top: 1775px;
+  left: 350px;
+ height: 46px;
+  width: 700px;
+ font-family: 'Morion';
+  font-size: 65px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  text-align:center;
+}
+/* услуга 1*/
+#uslmainimg1{
+  z-index: 0;
+  position: absolute;
+ top: 1954px;
+ left: 57px;
+ width: 334px;
+}
+#uslminiimg1{
+  z-index: 0;
+  position: absolute;
+ top: 1970px;
+  left: 280px;
+  width: 80px;
+}
+#uslmaintxt1{
+    z-index: 1;
+  position: absolute;
+ top: 2050px;
+ left: 81px;
+ height: 31px;
+ width: 353px;
+ font-family: 'Morion';
+ font-size: 31px;
+ line-height:0.2;
+ font-weight: bold;
+ color: rgba(35, 31, 47, 1);
+ text-align: left;
+}
+#uslmaintxt2{
+    z-index: 1;
+   position: absolute;
+   top: 2120px;
+   left: 83px;
+   height: 77px;
+   width: 302px;
+  font-family: 'AsketExtended-Light';
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(35, 31, 47, 1);
+}
+#menubut1{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 2280px; left: 130px;
+   height: 50px; width: 203px;}
+}
+/*--------*/
+/* услуга 2*/
+{}
+#uslmainimg2 {
+  z-index: 0;
+  position: absolute;
+ top: 1954px;
+ left: 500px;
+ width: 334px;
+}
+#uslminiimg2{
+  z-index: 0;
+  position: absolute;
+ top: 2020px;
+  left: 720px;
+  width: 80px;
+}
+#uslmaintxt11{
+    z-index: 1;
+  position: absolute;
+ top: 1990px;
+ left: 530px;
+ height: 31px;
+ width: 353px;
+ font-family: 'Morion';
+ font-size: 31px;
+ line-height:0.2;
+ font-weight: bold;
+ color: rgba(35, 31, 47, 1);
+ text-align: left;
+}
+#uslmaintxt22{
+    z-index: 1;
+   position: absolute;
+   top: 2120px;
+   left: 530px;
+   height: 77px;
+   width: 280px;
+  font-family: 'AsketExtended-Light';
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(35, 31, 47, 1);
+}
+#menubut2{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 2280px; left: 570px;
+   height: 50px; width: 203px;}
+}
+/*--------*/
+/* услуга 3*/
+{}
+#uslmainimg3 {
+  z-index: 0;
+  position: absolute;
+ top: 1954px;
+ left: 960px;
+ width: 334px;
+}
+#uslminiimg3{
+  z-index: 0;
+  position: absolute;
+ top: 1970px;
+  left: 1000px;
+  width: 80px;
+}
+#uslmaintxt111{
+    z-index: 1;
+  position: absolute;
+ top: 2080px;
+ left: 990px;
+ height: 31px;
+ width: 353px;
+ font-family: 'Morion';
+ font-size: 31px;
+ line-height:0.2;
+ font-weight: bold;
+ color: rgba(35, 31, 47, 1);
+ text-align: left;
+}
+#uslmaintxt222{
+    z-index: 1;
+   position: absolute;
+   top: 2120px;
+   left: 990px;
+   height: 77px;
+   width: 280px;
+  font-family: 'AsketExtended-Light';
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(35, 31, 47, 1);
+}
+#menubut3{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 2280px; left: 1040px;
+   height: 50px; width: 203px;}
+}
+/*--------*/
+/* текст под услугами*/
+{}
+  #yakor{
+      position: absolute;
+    top: 2380px;
+  }
+#zakazusltxt{
+  position: absolute;
+  top: 2380px;
+  left: 300px;
+ height: 46px;
+  width: 1091px;
+ font-family: 'Morion';
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+#inborder{
+  position: absolute;
+  top: 2500px;
+  left: 220px;
+}
+#fioin{
+  z-index: 1;
+  outline:none;
+  position: absolute;
+  background: transparent;
+    border: none;
+  top: 2502px;
+  left: 245px;
+ height: 46px;
+  width: 330px;
+ font-family: 'Asket';
+  font-size: 20px;
+  font-weight: bold;
+  color: #67616e;
+}
+#phonein{
+  z-index: 1;
+  outline:none;
+  position: absolute;
+  background: transparent;
+    border: none;
+  top: 2502px;
+  left: 860px;
+  height: 46px;
+  width: 230px;
+ font-family: 'Asket';
+  font-size: 20px;
+  font-weight: bold;
+  color: #67616e;
+}
+#selectID{
+  z-index: 2;
+  outline:none;
+  position: absolute;
+  background: transparent;
+    border: none;
+  top: 2502px;
+  left: 590px;
+  height: 46px;
+  width: 250px;
+ font-family: 'Asket';
+  font-size: 20px;
+  font-weight: bold;
+  color: #67616e;
+}
+#zakbut{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 2580px; left: 480px;
+   height: 200px; width: 403px;
+}
+
+/*--------*/
+/* Контакты*/
+#keyboard{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 2735px; left: 480px;
+   width: 403px;
+}
+#podval{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 2850px;
+  width: 1500px;
+  left: -50px;
+}
+#tool{
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: 2600px; left: 50px;
+   width: 1300px;
+}
+#konttxt{
+    z-index: 2;
+  position: absolute;
+  top: 2930px;
+  left: 560px;
+ height: 25px;
+  width: 155px;
+ font-family: 'Morion';
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+#email{
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: 3100px; left: 50px;
+   width: 150px;
+}
+#emailtxt1{
+    z-index: 2;
+  position: absolute;
+  top: 3120px;
+  left: 210px;
+ height: 29px;
+  width: 202px;
+ font-family: 'Greycliff CF';
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(219, 205, 230, 1);
+}
+#emailtxt2{
+    z-index: 2;
+  position: absolute;
+  top: 3180px;
+  left: 210px;
+ height: 26px;
+  width: 308px;
+ font-family: 'AsketExtended-Light';
+  font-size: 40px;
+  font-weight: 300;
+  color: rgba(219, 205, 230, 1);
+}
+#phone{
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: 3100px; left: 750px;
+   width: 150px;
+}
+#phonetxt1{
+    z-index: 2;
+  position: absolute;
+  top: 3120px;
+  left: 920px;
+ height: 29px;
+  width: 202px;
+ font-family: 'Greycliff CF';
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(219, 205, 230, 1);
+}
+#phonetxt2{
+    z-index: 2;
+  position: absolute;
+  top: 3180px;
+  left: 920px;
+ height: 26px;
+  width: 508px;
+ font-family: 'AsketExtended-Light';
+  font-size: 35px;
+  font-weight: 300;
+  color: rgba(219, 205, 230, 1);
+}
+/*--------*/
+/* Подвал*/
+#borderpodval{
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 3400px;
+  height: 100px;
+   width: 2050px;
+}
+#prava{
+    z-index: 2;
+  position: absolute;
+  top: 3430px;
+  left: 22px;
+ height: 18px;
+  width: 1000px;
+ font-family: 'AsketExtended-Light';
+  font-size: 25px;
+  font-weight: 300;
+  color: rgba(219, 205, 230, 1);
+}
+/*--------*/
+/* Окно*/
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  display: block;
+  pointer-events: auto;
+}
+#login{
+  z-index: 2;
+ position: absolute;
+ top: 20px;
+ left: 1120px;
+ height: 29px;
+ width: 202px;
+ font-family: 'Greycliff CF';
+ font-size: 15px;
+ font-weight: bold;
+ color: rgba(219, 205, 230, 1);
+}
+#close{
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20% auto;
+  top: 550px; left: 240px;
+  padding: 25px 0px 13px 10px;
+}
+#butlog{
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20% auto;
+  hight: 100px;
+  widht: 10px;
+  top: 350px; left: 45px;
+  padding: 25px 0px 30px 0px;
+}
+#loginin{
+  outline:none;
+  background: transparent;
+    border: none;
+    position: relative;
+    margin: 20% auto;
+    top: 490px; left: 60px;
+  height: 46px;
+  width: 190px;
+ font-family: 'Asket';
+  font-size: 20px;
+  font-weight: bold;
+  color: #67616e;
+}
+#paswordin{
+  outline:none;
+  background: transparent;
+    border: none;
+    position: relative;
+    margin: 20% auto;
+    top: 415px; left: 60px;
+  height: 46px;
+  width: 190px;
+ font-family: 'Asket';
+  font-size: 20px;
+  font-weight: bold;
+  color: #67616e;
+}
+.modalDialog > div {
+  bottom: 600px;
+  right: 50px;
+  width: 240px;
+  position: relative;
+  margin: 20% auto;
+  padding: 0px 20px 0px 0px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.close:hover { background: #00d9ff; }
+/*--------*/
+/* оповещения*/
+.notifDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+#okk{
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20% auto;
+  top: 300px; left: 220px;
+  padding: 45px 0px 13px 10px;
+}
+
+.notifDialog:target {
+  display: block;
+  pointer-events: auto;
+}
+
+#meslog{
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20% auto;
+  hight: 100px;
+  widht: 10px;
+  top: 350px; left: 45px;
+  padding: 25px 0px 30px 0px;
+}
+.notifDialog > div {
+  bottom: 200px;
+  right: 150px;
+  width: 240px;
+  position: relative;
+  margin: 20% auto;
+  padding: 0px 20px 0px 0px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.okk:hover { background: #00d9ff; }
+/*--------*/

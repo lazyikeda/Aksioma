@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Morion';
+    src: local('Morion Bold'), local('Morion-Bold'),
+        url('Morion-Bold.woff2') format('woff2'),
+        url('Morion-Bold.woff') format('woff'),
+        url('Morion-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+      font-family: 'AsketExtended-Light';
+      src: local('AsketExtended-Light'), local('AsketExtended-Light'),
+          url('AsketExtended-Light.woff2') format('woff2'),
+          url('AsketExtended-Light.woff') format('woff'),
+          url('AsketExtended-Light.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+        font-family: 'Asket';
+        src: local('Asket NarrowLight'), local('Asket-NarrowLight'),
+            url('AsketNarrow-Light.woff2') format('woff2'),
+            url('AsketNarrow-Light.woff') format('woff'),
+            url('AsketNarrow-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+      }
